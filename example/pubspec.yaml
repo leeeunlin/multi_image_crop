@@ -12,6 +12,7 @@ dependencies:
   multi_image_crop:
     path: ..
   cupertino_icons: ^1.0.2
+  photo_manager: ^2.6.0
 
 dev_dependencies:
   flutter_test:

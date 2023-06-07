@@ -1,7 +1,16 @@
 library multi_image_crop;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'dart:typed_data';
+import 'package:photo_manager/photo_manager.dart';
+
+class ImageAssetCrop {
+  // final List<AssetEntity> assetList =  <AssetEntity>[];
+  static List<AssetEntity> cropImage(List<AssetEntity> selectImageList) {
+    print('들어왔나 ${selectImageList}');
+    return selectImageList;
+  }
+
+  // void oninit(selectImageList) {
+  //   print('들어왔나 ${selectImageList}');
+  // }
 }
